@@ -1,0 +1,666 @@
+dev-libs/efl -wayland X -drm
+app-emulation/spice gstreamer
+app-emulation/libvirt fuse
+media-libs/libsndfile minimal
+app-emulation/qemu aio alsa bzip2 caps curl fdt filecaps gnutls gtk jack jpeg ncurses nls opengl pam pin-upstream-blobs png sdl seccomp slirp udev usb vhost-net vnc xattr -accessibility -bpf -capstone -debug -doc fuse -glusterfs -infiniband -io-uring -iscsi -jemalloc -lzo -multipath -nfs -numa -oss -plugins -pulseaudio -python -rbd -sasl -sdl-image -selinux -smartcard -snappy spice -ssh -static -static-user -systemtap -test -usbredir vde vhost-user-fs virgl virtfs -vte -xen -zstd
+# required by sys-devel/llvm-14.0.6::gentoo
+# required by sys-libs/compiler-rt-14.0.6::gentoo
+# required by sys-devel/clang-runtime-14.0.6::gentoo[compiler-rt]
+# required by app-portage/portage-utils-0.94.1::gentoo[openmp,qtegrity,qmanifest]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by virtual/perl-Digest-MD5-2.580.0-r1::gentoo
+# required by dev-perl/libwww-perl-6.600.0-r1::gentoo
+# required by dev-perl/XML-Parser-2.460.0-r2::gentoo
+# required by dev-util/intltool-0.51.0-r3::gentoo
+# required by sys-auth/elogind-246.10-r2::gentoo
+# required by sys-apps/dbus-1.14.0-r4::gentoo[elogind]
+# required by app-crypt/gcr-3.41.0::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=dev-libs/libxml2-2.9.14-r1 abi_x86_32
+# required by sys-devel/llvm-14.0.6::gentoo
+# required by sys-libs/compiler-rt-14.0.6::gentoo
+# required by sys-devel/clang-runtime-14.0.6::gentoo[compiler-rt]
+# required by app-portage/portage-utils-0.94.1::gentoo[openmp,qtegrity,qmanifest]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by virtual/perl-Digest-MD5-2.580.0-r1::gentoo
+# required by dev-perl/libwww-perl-6.600.0-r1::gentoo
+# required by dev-perl/XML-Parser-2.460.0-r2::gentoo
+# required by dev-util/intltool-0.51.0-r3::gentoo
+# required by sys-auth/elogind-246.10-r2::gentoo
+# required by sys-apps/dbus-1.14.0-r4::gentoo[elogind]
+# required by app-crypt/gcr-3.41.0::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=sys-libs/zlib-1.2.12-r2 abi_x86_32
+# required by dev-libs/libxml2-2.9.14-r1::gentoo[icu]
+# required by app-crypt/gcr-3.41.0::gentoo[gtk]
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=dev-libs/icu-71.1-r1 abi_x86_32
+# required by sys-devel/llvm-14.0.6::gentoo
+# required by sys-libs/compiler-rt-14.0.6::gentoo
+# required by sys-devel/clang-runtime-14.0.6::gentoo[compiler-rt]
+# required by app-portage/portage-utils-0.94.1::gentoo[openmp,qtegrity,qmanifest]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by virtual/perl-Digest-MD5-2.580.0-r1::gentoo
+# required by dev-perl/libwww-perl-6.600.0-r1::gentoo
+# required by dev-perl/XML-Parser-2.460.0-r2::gentoo
+# required by dev-util/intltool-0.51.0-r3::gentoo
+# required by sys-auth/elogind-246.10-r2::gentoo
+# required by sys-apps/dbus-1.14.0-r4::gentoo[elogind]
+# required by app-crypt/gcr-3.41.0::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=sys-libs/ncurses-6.3_p20220423 abi_x86_32
+# required by sys-libs/ncurses-6.3_p20220423::gentoo[gpm]
+# required by sys-apps/openrc-0.45.2::gentoo[ncurses]
+# required by virtual/service-manager-1::gentoo
+# required by @system
+# required by @world (argument)
+>=sys-libs/gpm-1.20.7-r5 abi_x86_32
+# required by media-libs/harfbuzz-3.4.0-r1::gentoo
+# required by x11-libs/gtk+-3.24.34::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo[gtk]
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=dev-libs/glib-2.72.3 abi_x86_32
+# required by media-libs/harfbuzz-3.4.0-r1::gentoo
+# required by x11-libs/gtk+-3.24.34::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo[gtk]
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=media-gfx/graphite2-1.3.14_p20210810-r1 abi_x86_32
+# required by media-libs/harfbuzz-3.4.0-r1::gentoo
+# required by x11-libs/gtk+-3.24.34::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo[gtk]
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=media-libs/freetype-2.12.1 abi_x86_32
+# required by media-libs/freetype-2.12.1::gentoo[bzip2]
+# required by app-text/ghostscript-gpl-9.56.1::gentoo
+# required by net-print/cups-filters-1.28.15::gentoo[postscript]
+# required by net-print/cups-2.4.2-r1::gentoo
+# required by x11-libs/gtk+-3.24.34::gentoo[cups]
+# required by app-crypt/gcr-3.41.0::gentoo[gtk]
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=app-arch/bzip2-1.0.8-r1 abi_x86_32
+# required by media-libs/freetype-2.12.1::gentoo[png]
+# required by app-text/ghostscript-gpl-9.56.1::gentoo
+# required by net-print/cups-filters-1.28.15::gentoo[postscript]
+# required by net-print/cups-2.4.2-r1::gentoo
+# required by x11-libs/gtk+-3.24.34::gentoo[cups]
+# required by app-crypt/gcr-3.41.0::gentoo[gtk]
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=media-libs/libpng-1.6.37-r2 abi_x86_32
+# required by dev-libs/glib-2.72.3::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo
+# required by app-crypt/pinentry-1.2.0-r1::gentoo[gtk]
+# required by app-crypt/gnupg-2.3.6-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by net-misc/wget-1.21.3-r1::gentoo
+# required by @system
+# required by @world (argument)
+>=dev-libs/libpcre-8.45-r1 abi_x86_32
+# required by dev-libs/glib-2.72.3::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo
+# required by app-crypt/pinentry-1.2.0-r1::gentoo[gtk]
+# required by app-crypt/gnupg-2.3.6-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by net-misc/wget-1.21.3-r1::gentoo
+# required by @system
+# required by @world (argument)
+>=sys-apps/util-linux-2.38 abi_x86_32
+# required by dev-libs/glib-2.72.3::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo
+# required by app-crypt/pinentry-1.2.0-r1::gentoo[gtk]
+# required by app-crypt/gnupg-2.3.6-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by net-misc/wget-1.21.3-r1::gentoo
+# required by @system
+# required by @world (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by dev-libs/glib-2.72.3::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo
+# required by app-crypt/pinentry-1.2.0-r1::gentoo[gtk]
+# required by app-crypt/gnupg-2.3.6-r1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by net-misc/wget-1.21.3-r1::gentoo
+# required by @system
+# required by @world (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+sys-devel/gcc abi_x86_64 amd64 cxx elibc_glibc fortran -go -hardened kernel_linux lto multilib nls nptl openmp pgo pie sanitize ssp userland_GNU zstd
+media-fonts/nerd-fonts sourcecodepro hack
+# required by x11-misc/openbox-menu-0.8.1::gentoo[icons]
+# required by openbox-menu (argument)
+>=x11-wm/openbox-3.6.1-r3 imlib
+# required by xfce-base/xfce4-panel-4.17.1::gentoo[dbusmenu]
+# required by xfce-extra/xfce4-power-manager-4.16.0::gentoo[panel-plugin]
+# required by xfce4-power-manager (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by app-emulation/virt-manager-4.0.0::gentoo[-test,gtk]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.40 usbredir
+# required by dev-python/PyQt5-5.15.6::gentoo[multimedia]
+# required by media-sound/cadence-0.9.2::gentoo[python_single_target_python3_10]
+# required by cadence (argument)
+>=dev-qt/qtmultimedia-5.15.5 widgets
+# required by sys-libs/slang-2.3.2::gentoo
+# required by dev-libs/newt-0.52.21_p20210816::gentoo
+# required by net-misc/networkmanager-1.38.2::gentoo[tools]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=sys-libs/readline-8.1_p2 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-libs/atk-2.38.0 abi_x86_32
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=media-libs/fontconfig-2.14.0-r1 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/cairo-1.16.0-r5 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/gdk-pixbuf-2.42.8 abi_x86_32
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/pango-1.50.7 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=net-print/cups-2.4.2-r1 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libX11-1.7.5 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/libXcomposite-0.4.5 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/libXcursor-1.2.1 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/libXdamage-1.1.5 abi_x86_32
+# required by x11-libs/libXrandr-1.5.2::gentoo
+# required by media-libs/mesa-22.1.3::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libXext-1.3.4 abi_x86_32
+# required by x11-libs/libva-2.14.0::gentoo[X]
+# required by media-libs/mesa-22.1.3::gentoo[vaapi]
+# required by virtual/opengl-7.0-r2::gentoo
+>=x11-libs/libXfixes-6.0.0 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/libXi-1.8 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/libXrandr-1.5.2 abi_x86_32
+# required by x11-libs/libXft-2.3.4::gentoo
+# required by x11-libs/pango-1.50.7::gentoo[X]
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/libXrender-0.9.10-r2 abi_x86_32
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=gnome-base/librsvg-2.54.4 abi_x86_32
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=media-libs/harfbuzz-4.4.1 abi_x86_32
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r4::gentoo
+# required by x11-misc/polybar-3.6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libxcb-1.15-r1 abi_x86_32
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r4::gentoo
+# required by x11-misc/polybar-3.6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libXau-1.0.9-r1 abi_x86_32
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r4::gentoo
+# required by x11-misc/polybar-3.6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libXdmcp-1.1.3-r1 abi_x86_32
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r4::gentoo
+# required by x11-misc/polybar-3.6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libbsd-0.11.6 abi_x86_32
+# required by dev-libs/libbsd-0.11.6::gentoo
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r4::gentoo
+# required by x11-misc/polybar-3.6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/libmd-1.0.4 abi_x86_32
+# required by net-print/cups-2.4.2-r1::gentoo[dbus]
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=sys-apps/dbus-1.14.0-r4 abi_x86_32
+# required by net-print/cups-2.4.2-r1::gentoo[ssl,-openssl]
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=net-libs/gnutls-3.7.6 abi_x86_32
+# required by net-libs/gnutls-3.7.6::gentoo
+# required by net-print/cups-2.4.2-r1::gentoo[ssl,-openssl]
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-libs/libtasn1-4.18.0 abi_x86_32
+# required by net-libs/gnutls-3.7.6::gentoo
+# required by net-print/cups-2.4.2-r1::gentoo[ssl,-openssl]
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-libs/libunistring-1.0 abi_x86_32
+# required by net-libs/gnutls-3.7.6::gentoo
+# required by net-print/cups-2.4.2-r1::gentoo[ssl,-openssl]
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-libs/nettle-3.8 abi_x86_32
+# required by dev-libs/nettle-3.8::gentoo[gmp]
+# required by net-libs/gnutls-3.7.6::gentoo
+# required by net-print/cups-2.4.2-r1::gentoo[ssl,-openssl]
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-libs/gmp-6.2.1-r2 abi_x86_32
+# required by net-libs/gnutls-3.7.6::gentoo[idn]
+# required by net-print/cups-2.4.2-r1::gentoo[ssl,-openssl]
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=net-dns/libidn2-2.3.2 abi_x86_32
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-libs/fribidi-1.0.12 abi_x86_32
+# required by x11-libs/pango-1.50.7::gentoo[X]
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/libXft-2.3.4 abi_x86_32
+# required by x11-libs/gdk-pixbuf-2.42.8::gentoo[tiff]
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=media-libs/tiff-4.4.0 abi_x86_32
+# required by virtual/jpeg-100-r1::gentoo
+# required by x11-libs/gdk-pixbuf-2.42.8::gentoo[jpeg]
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=media-libs/libjpeg-turbo-2.1.3 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-libs/lzo-2.10 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=sys-libs/binutils-libs-2.38-r2 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r5::gentoo
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=x11-libs/pixman-0.40.0 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r5::gentoo[opengl]
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=media-libs/mesa-22.1.3 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=dev-libs/expat-2.4.8 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=media-libs/libglvnd-1.4.0 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[vaapi]
+# required by virtual/opengl-7.0-r2::gentoo
+>=x11-libs/libva-2.14.0 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[vdpau]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libvdpau-1.5 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[xvmc]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libXvMC-1.0.13 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libdrm-2.4.111 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libxshmfence-1.3-r2 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libXxf86vm-1.1.4-r2 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[zstd]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=app-arch/zstd-1.5.2-r1 abi_x86_32
+# required by x11-libs/libdrm-2.4.111::gentoo[video_cards_intel]
+# required by x11-libs/libva-2.14.0::gentoo
+# required by media-libs/mesa-22.1.3::gentoo[vaapi]
+# required by virtual/opengl-7.0-r2::gentoo
+>=x11-libs/libpciaccess-0.16-r1 abi_x86_32
+# required by x11-libs/libXvMC-1.0.13::gentoo
+# required by media-libs/mesa-22.1.3::gentoo[xvmc]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=x11-libs/libXv-1.0.11-r2 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-apps/xbacklight-1.2.3::gentoo
+# required by x11-base/xorg-x11-7.4-r3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-cursor-0.1.3-r4 abi_x86_32
+# required by x11-libs/libva-2.14.0::gentoo[X]
+# required by media-libs/mesa-22.1.3::gentoo[vaapi]
+# required by x11-libs/cairo-1.16.0-r5::gentoo[opengl]
+# required by x11-libs/pango-1.50.7::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=virtual/opengl-7.0-r2 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[llvm,-video_cards_radeonsi,-video_cards_r600,opencl,video_cards_radeon]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=virtual/libelf-3 abi_x86_32
+# required by media-libs/mesa-22.1.3::gentoo[opencl]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=virtual/opencl-3-r1 abi_x86_32
+# required by virtual/libelf-3::gentoo
+# required by media-libs/mesa-22.1.3::gentoo[llvm,-video_cards_radeonsi,-video_cards_r600,opencl,video_cards_radeon]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=dev-libs/elfutils-0.187 abi_x86_32
+# required by virtual/opencl-3-r1::gentoo
+# required by media-libs/mesa-22.1.3::gentoo[opencl]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by x11-libs/libva-2.14.0::gentoo[X]
+>=dev-libs/opencl-icd-loader-2022.05.18 abi_x86_32
+# required by x11-libs/gdk-pixbuf-2.42.8::gentoo[jpeg]
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=virtual/jpeg-100-r1 abi_x86_32
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=virtual/rust-1.62.0 abi_x86_32
+# required by virtual/rust-1.62.0::gentoo
+# required by gnome-base/librsvg-2.54.4::gentoo
+# required by x11-libs/gtk+-2.24.33::gentoo
+# required by net-dialup/ppp-2.4.9-r8::gentoo[gtk]
+# required by net-misc/networkmanager-1.38.2::gentoo[ppp]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=dev-lang/rust-bin-1.62.0 abi_x86_32
+# required by dev-libs/libgudev-237-r1::gentoo
+# required by net-libs/libqmi-1.30.8::gentoo
+# required by net-misc/modemmanager-1.18.10-r1::gentoo[qmi]
+# required by net-misc/networkmanager-1.38.2::gentoo[modemmanager]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=virtual/libudev-232-r7 abi_x86_32
+# required by virtual/libudev-232-r7::gentoo[-systemd]
+# required by dev-libs/libgudev-237-r1::gentoo
+# required by net-libs/libqmi-1.30.8::gentoo
+# required by net-misc/modemmanager-1.18.10-r1::gentoo[qmi]
+# required by net-misc/networkmanager-1.38.2::gentoo[modemmanager]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=sys-apps/systemd-utils-250.7 abi_x86_32
+# required by sys-apps/systemd-utils-250.7::gentoo[udev]
+# required by virtual/libudev-232-r7::gentoo[-systemd]
+# required by dev-libs/libgudev-237-r1::gentoo
+# required by net-libs/libqmi-1.30.8::gentoo
+# required by net-misc/modemmanager-1.18.10-r1::gentoo[qmi]
+# required by net-misc/networkmanager-1.38.2::gentoo[modemmanager]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=sys-libs/libcap-2.64 abi_x86_32
+# required by sys-libs/libcap-2.64::gentoo[pam]
+# required by sys-apps/systemd-utils-250.7::gentoo[udev]
+# required by virtual/libudev-232-r7::gentoo[-systemd]
+# required by dev-libs/libgudev-237-r1::gentoo
+# required by net-libs/libqmi-1.30.8::gentoo
+# required by net-misc/modemmanager-1.18.10-r1::gentoo[qmi]
+# required by net-misc/networkmanager-1.38.2::gentoo[modemmanager]
+# required by dev-qt/qtnetwork-5.15.5::gentoo[networkmanager]
+# required by dev-qt/qtsingleapplication-2.6.1_p20171024::gentoo
+# required by media-video/smplayer-22.2.0::gentoo
+# required by smplayer (argument)
+>=sys-libs/pam-1.5.2-r1 abi_x86_32

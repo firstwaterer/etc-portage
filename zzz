@@ -1,0 +1,5 @@
+#sys-devel/llvm
+sys-devel/clang
+sys-libs/glibc
+dev-lang/rust
+#net-misc/networkmanager
